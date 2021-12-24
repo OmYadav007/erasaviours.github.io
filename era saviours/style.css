@@ -1,0 +1,144 @@
+@font-face {
+    font-family: lemon-milk-bold;
+    
+    src: url("/fonts/lemon_milk/LEMONMILK-Bold.otf");
+}
+@font-face {
+    font-family: lemon-milk-light;
+    src: url("fonts/lemon_milk/LEMONMILK-Light.otf");
+}
+@font-face {
+    font-family: lemon-milk-medium;
+    src: url("fonts/lemon_milk/LEMONMILK-Medium.otf");
+}
+@font-face {
+    font-family:montserrat-black;
+    src: url("fonts/lemon_milk/Montserrat-Black.ttf");
+}
+.hero-container
+{
+display: flex;
+flex-direction: column;
+background-image: url("/images/heroimg.png");
+height: 700px;
+justify-content: center;
+align-items: center;
+background-size: cover;
+
+}
+.website-title
+{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    display: flex;
+    height:50px;
+    width:400px;
+}
+.logo
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+.website-description
+{
+    text-align: center;
+    color:antiquewhite;
+    font-family: lemon-milk-medium;
+    font-size:1.2em;
+    text-shadow: 1px 1px 30px rgb(0, 0, 0,0.5);    
+    letter-spacing: 0.1em;
+}
+.plant-number
+{
+    display: flex;
+    color: white;
+    font-size:12vw;
+    font-family:montserrat-black;
+    padding-bottom:1.5em;
+    text-shadow: 1px 1px 30px rgb(0, 0, 0,0.5);    
+
+}
+.donation-container
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+}
+.donation-card
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 2em;
+border-radius:20px;
+z-index: 2;
+transform: translateY(-100px);
+background-color: whitesmoke;
+box-shadow:0px 0px 10px 5px rgba(102, 62, 62, 0.2);
+
+
+}
+.donation-description
+{
+    font-family: lemon-milk-bold;
+    font-size: 1.5rem;
+    letter-spacing:0.15em;
+}
+.plant-selector
+{
+display: flex;
+flex-direction: row;
+}
+
+.plant-donation-input
+{
+    border-radius:50%;
+    height: 5em;
+    width: 5em;
+    padding:1em;
+    font-family: lemon-milk-bold;
+    background-color: #1E491B;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    border: none;
+    box-shadow:0px 0px 5px 5px rgba(0,0,0,0.2);
+
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.plant,.trees
+{
+    font-family: lemon-milk-medium;
+    font-size: 1.5rem;
+    letter-spacing:0.15em;
+    color: #388833;
+    margin:1em;
+    
+}
+.donate-button
+{
+    background-color: #FF6B00;
+    padding:0.5em 5em 0em 5em;
+    border:none;
+    border-radius:2em;
+    color: white;
+    font-family: lemon-milk-bold;
+    font-size: 1.2em;
+    text-align: center;
+   margin-top: 1em;
+   letter-spacing: 0.1em;
+   box-shadow:0px 0px 5px 5px rgba(0,0,0,0.2);
+
+   
+}
+
+
+
